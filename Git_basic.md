@@ -120,10 +120,13 @@ commit 하기 위한 stage에 파일 추가
 commit 목록 (log) 출력
 
 * `git log --oneline` : 한줄 출력
+* `git log -1`: 출력 개수 한정
 
 
 
-### 7. 
+### 7. git restore --staged [파일명]
+
+unstageL stage 상태 해제
 
 
 
@@ -133,8 +136,53 @@ commit 목록 (log) 출력
 
 
 
+### 9. git diff [파일명]
+
+변경 내역 출력
+
+
+
+### 10. git remote
+
+원격 저장소 정보 출력
+
+* `git remote -v` : 상세 정보 출력 (verbose)
+
+
+
+### 11. git remote add [이름] [주소]
+
+원격 저장소 정보 추가
+
+* 이름: 관례/관습(Convention) origin (원본)
+* 주소: Github에서 복사 가능
+
+
+
+### 12. git push [이름] [브랜치]
+
+원격 저장소에 코드 업로드
+
+* `git push origin master`
+
+```
+Enumerating objects: 8, done.
+Counting objects: 100%(8/8), done.
+Delta compression using up to 12 threads
+Compressing objects:100% (4/4), done.
+writing objects: 100%(8/8), 668 bytes | 668.kib/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/mickymicmouse/git_review.git
+* [new branch]		master -> master
+```
+
+
+
 ### (참고) CLI 명령어
 
 * `echo [문자열]`
   * command line 출력
-
+* `echo [문자열] > 파일명`
+  * 특정 파일에 출력 (기록)
+* `cat [파일명]`
+  * 파일의 내용을 출력
