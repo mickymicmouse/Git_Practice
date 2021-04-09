@@ -178,6 +178,40 @@ To https://github.com/mickymicmouse/git_review.git
 
 
 
+### 13. git clone [주소]
+
+원격 저장소 다운로드 (복제)
+
+
+
+### 14. git pull [repository 이름] [브런치]
+
+
+
+## Git Branch
+
+### 15. git branch
+
+모든 branch 표시
+
+### 16. `git branch [브랜치 이름]` 
+
+새로운 branch 생성
+
+
+
+### 17.  `git checkout [브랜치 이름]`
+
+branch 로 이동
+
+
+
+### 18. `git merge [브랜치 이름]`
+
+현재 있는 branch에서 대상 branch를 병합하는 것
+
+
+
 ### (참고) CLI 명령어
 
 * `echo [문자열]`
@@ -186,3 +220,6 @@ To https://github.com/mickymicmouse/git_review.git
   * 특정 파일에 출력 (기록)
 * `cat [파일명]`
   * 파일의 내용을 출력
+
+* `ctrl + l`
+  * CLI 화면 초기화
