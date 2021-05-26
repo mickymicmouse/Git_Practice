@@ -1,0 +1,12 @@
+1. Window 업데이트
+2. gpedit.msc 자동업데이트 중지
+3. services.msc 자동업데이트 추적 중지
+4. 깃 설치
+5. 데이터 이동
+6. 자바 설치
+7. 파이썬 설치
+8. 슬랙, 줌, typora 설치
+9. winscp, putty 설치
+9. office 설치
+10. LG 드라이버 설치
+https://www.lge.co.kr/support/product-manuals?title=manual
